@@ -4,13 +4,13 @@ import { Paper, Set, Rect } from 'react-raphael';
 
 import Encoder, { BITS } from '../utils/encoder';
 
-const HEIGHT = 450;
-const COLUMN_WIDTH = 5;
-const COLUMN_SPACING = 10;
-const ROWS_PER_BIT = 7;
-const ROWS_PER_SPROCKET = 5;
-const FULL_COLUMNS = 19;
-const NULL_COLUMNS = 5;
+const HEIGHT = 350;
+const COLUMN_WIDTH = 8;
+const COLUMN_SPACING = 4;
+const ROWS_PER_BIT = 10;
+const ROWS_PER_SPROCKET = 1;
+const FULL_COLUMNS = 34;
+const NULL_COLUMNS = 10;
 
 class PatternRenderer extends Component {
   static propTypes = {
